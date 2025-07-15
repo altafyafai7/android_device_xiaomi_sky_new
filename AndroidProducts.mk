@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_sky.mk
+    $(LOCAL_DIR)/lineage_sky.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_sky-bp2a-eng \
+    lineage_sky-bp2a-userdebug \
+    lineage_sky-bp2a-user

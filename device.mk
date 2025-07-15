@@ -532,5 +532,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Signed
 -include vendor/lineage-priv/keys/keys.mk
