@@ -534,6 +534,3 @@ PRODUCT_BOOT_JARS += \
 
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
-
-# Signed
--include vendor/infinity-priv/keys/keys.mk
