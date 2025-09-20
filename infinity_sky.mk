@@ -23,17 +23,9 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
-# Infinity-X Flags
-INFINITY_BUILD_TYPE := OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_BLUR := true
-INFINITY_MAINTAINER := "kAiF"
-USE_MOTO_CALCULATOR := true
-WITH_GAPPS := true
-
 ## Device identifier
 PRODUCT_DEVICE := sky
-PRODUCT_NAME := infinity_sky
+PRODUCT_NAME := lineage_sky
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23076RN4BI
 PRODUCT_MANUFACTURER := Xiaomi
